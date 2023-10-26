@@ -37,6 +37,10 @@
     <PackageReference Include="DevExpress.Persistent.BaseImpl.EFCore" Version="23.1.6" />
     <PackageReference Include="DevExpress.RichEdit.Export" Version="23.1.6" />
     <PackageReference Include="DevExpress.Win.Design" Version="23.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DX_teszt.Module\DX_teszt.Module.csproj" />

@@ -47,8 +47,17 @@ namespace DX_teszt.Win {
                 labelStatus.Text = (string)arg;
             }
         }
-        
+
         #endregion
 
+        private void labelApplicationName_Click(object sender, EventArgs e)
+        {
+                
+        }
+
+        private void labelSubtitle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
