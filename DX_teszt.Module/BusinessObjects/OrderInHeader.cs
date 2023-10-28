@@ -18,6 +18,5 @@ public class OrderInHeader : BaseObject
 
     [Column(TypeName = "varchar(255)")]
     public virtual String Supplier { get; set; }
-
 }
     

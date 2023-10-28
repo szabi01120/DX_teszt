@@ -35,7 +35,11 @@
     <PackageReference Include="DevExpress.ExpressApp.Win.Design" Version="23.1.6" />
     <PackageReference Include="DevExpress.Persistent.Base" Version="23.1.6" />
     <PackageReference Include="DevExpress.Persistent.BaseImpl.EFCore" Version="23.1.6" />
+    <PackageReference Include="DevExpress.Reporting.Core" Version="23.1.6" />
+    <PackageReference Include="DevExpress.Reporting.WCF" Version="23.1.6" />
     <PackageReference Include="DevExpress.RichEdit.Export" Version="23.1.6" />
+    <PackageReference Include="DevExpress.Win.Dashboard" Version="23.1.6" />
+    <PackageReference Include="DevExpress.Win.Dashboard.Design" Version="23.1.6" />
     <PackageReference Include="DevExpress.Win.Design" Version="23.1.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.3">
       <PrivateAssets>all</PrivateAssets>

@@ -17,12 +17,19 @@
     <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.CrossPlatform.Printing.DrawingEngine" Version="1.0.14" />
     <PackageReference Include="DevExpress.ExpressApp" Version="23.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="23.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.EFCore" Version="23.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.Objects" Version="23.1.6" />
     <PackageReference Include="DevExpress.Persistent.Base" Version="23.1.6" />
     <PackageReference Include="DevExpress.Persistent.BaseImpl.EFCore" Version="23.1.6" />
+    <PackageReference Include="DevExpress.Reporting.Core" Version="23.1.6" />
+    <PackageReference Include="DevExpress.Xpo" Version="23.1.6" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="7.0.3" />
@@ -30,5 +37,12 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.TeamFoundationServer.ExtendedClient" Version="16.205.1" />
+    <PackageReference Include="PDFsharp" Version="1.50.5147" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.XtraPrinting.v23.1">
+      <HintPath>..\..\..\..\..\..\Program Files\DevExpress 23.1\Components\Offline Packages\devexpress.win.printing\23.1.6\lib\net6.0-windows\DevExpress.XtraPrinting.v23.1.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>
